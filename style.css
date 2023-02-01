@@ -10,7 +10,7 @@ main{
 .container{
   display: flex;
   flex-direction: column;
-  background: rgb(255,198,0);
+  background: rgb(110, 237, 237);
   width: 400px;
   height: 600px;
   align-items: center;
@@ -52,11 +52,12 @@ main{
 }
 
 button{
+  border: solid red;
   width: 300px;
   height: 40px;
   font: bold 1.2rem serif;
   background: #000;
-  color: rgb(255,198,0);
+  color: rgb(224, 193, 52);
   outline: none;
   border-radius: 5px;
   cursor: pointer;
@@ -72,8 +73,9 @@ button{
   font: italic 1.5rem serif;
   box-shadow: 0px 0px 10px black;
   background: #000;
-  color: rgb(255,198,0);
+  color: rgb(253, 1, 1);
   padding: 20px;
   box-sizing: border-box;
   user-select: none;
+  -webkit-user-select: none;
 }
